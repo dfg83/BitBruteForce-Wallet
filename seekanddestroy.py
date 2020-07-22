@@ -54,6 +54,7 @@ def seek(r):
 			print('Core :'+str(r)+" K/s = "+ str(i / time_diff))
 		#print ('Worker '+str(r)+':'+ str(i) + '.-  # '+pub + ' # -------- # '+ priv+' # ')
 		pub = pub + '\n'
+		#print("Public: " + str(pub) + " ---- Private: " + str(priv) + "YEI")
 		filename = 'bit.txt'
 		with open(filename) as f:
 			for line in f:
