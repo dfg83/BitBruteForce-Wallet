@@ -20,7 +20,7 @@ def ripemd160(x):
 
 r = 0
 
-cores=2
+cores=3
 
 
 
@@ -67,7 +67,7 @@ def seek(r):
 					server.login("example@gmail.com", "password")
 					fromaddr = "example@gmail.com"
 					toaddr = "example@gmail.com"
-					server.sendmail(fromaddr, toaddr, text)
+					#server.sendmail(fromaddr, toaddr, text)
 					print(text)
 					f = open('Wallets.txt','a')
 					f.write(priv)
